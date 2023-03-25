@@ -127,12 +127,10 @@ public class Principale extends JFrame {
 		table = new JTable();
 		scrollPane.setViewportView(table);
 		table.setModel(new DefaultTableModel(
-			new Object[][] {
-				{"Zaid alag", "RH", null},
-				{"ZHRI Riyad", "Finance", "34000"},
+			new Object[][] { 
 			},
 			new String[] {
-				"Nom et Prenom", "Departement", "Salaire"
+				"Cod Emp", "Nom Prenom ", "Departement", "Salaire"
 			}
 		));
 		
